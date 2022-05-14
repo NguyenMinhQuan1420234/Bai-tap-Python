@@ -2,29 +2,25 @@ a = float(input("nhap a = \n"))
 b = float(input("nhap b = \n"))
 c = float(input("nhap c = \n"))
 d = float(input("nhap d = \n"))
+# a, b, c , d = eval(input("nhap a b c d:"))
+max = a
 
-max = 0
-
-if a>b and a>c and a>d  :
-    max = a
-elif b>a and b>c and b>d:
+if b > max:
     max = b
-elif c>a and c>b and c>d:
+if c > max:
     max = c
-else :
+if d > max:
     max = d 
 
 print("MAX = ", max)
 
-min = 0
+min = a
 
-if a<b and a<c and a<d  :
-    min = a
-elif b<a and b<c and b<d:
+if  b < min :
     min = b
-elif c<a and c<b and c<d:
+if c < min:
     min = c
-else :
-    min = d 
+if d < min:
+    min = d
 
 print("MIN = ", min)
