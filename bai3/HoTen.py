@@ -1,6 +1,6 @@
 HoTen = input("Nhap Ho va Ten: ")
 HoTen = HoTen.strip()
-
+print(HoTen)
 vt1 = HoTen.find(" ")
 vt2 = HoTen.rfind(" ")
 
