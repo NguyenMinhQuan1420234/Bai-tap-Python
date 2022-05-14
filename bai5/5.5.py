@@ -10,7 +10,7 @@ for i in range(1,n+1):
         TongSoChan = TongSoChan + i
     else:
         TongSoLe = TongSoLe + i
-    if n % 3 == 0:
+    if i % 3 == 0:
         TichSoChia3 = TichSoChia3 * i
     TichSo = TichSo * i
     if i >= 2:
