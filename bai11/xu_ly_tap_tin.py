@@ -66,3 +66,6 @@ def write_csv_file(filename, listContent):
     for item in listContent:
         csv.writer(f).writerow(item)
     f.close()
+
+read_report_file_cach2("baihat.txt")
+read_report_file_cach1("baihat.txt")
